@@ -1,0 +1,7 @@
+package gg;
+
+public class gg {kj
+
+    ;
+
+}
