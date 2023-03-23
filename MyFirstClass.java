@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MyFirstClass {
     public static void main(String[] args) {
-        System.out.println("Hello, human");
+        System.out.println("Hello, human!");
 
         Scanner scanner = new Scanner(System.in);
 
@@ -14,13 +14,14 @@ public class MyFirstClass {
 
         System.out.println("Nice to meet you, " + userName + "!");
 
-        System.out.println("Please enter your age:");
+        System.out.println("We are collecting the best hobbies ideas. Please enter your favorite one:");
 
-        int userAge = scanner.nextInt();
+        String Hobby = scanner.nextLine();
 
-        if (userAge < 18){
-            System.out.println(userName + " is not allowed to drink!");
-        }else {
-            System.out.println("Cheers, " + userName + "!");
+        if (Hobby.equals("climbing")){
+            System.out.println(userName + " that's great! Be careful! Thank you!");
+                    }
+        else {
+            System.out.println("That's nice! Enjoy, " + userName + "! Thank you!");
         }
     }}
